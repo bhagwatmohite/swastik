@@ -105,39 +105,39 @@
 const serviceData = [
   {
     title: 'Web Application Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.',
+    description: 'Transform your business with our top-notch web application development services. We create scalable, secure, and high-performance web solutions tailored to your needs.',
     image: 'img/webappservice.jpg',
-    link: '#'
+    link: '/web-development'
   },
   {
     title: 'Mobile Application Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.',
+    description: 'Reach your customers on the go with our mobile app development services. We design and build intuitive and engaging mobile applications for both iOS and Android platforms.',
     image: 'img/mobileappservice.jpg',
-    link: '#'
+    link: '/mobile-development'
   },
   {
     title: 'Graphics Design Services',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.',
+    description: 'Enhance your brand’s visual identity with our professional graphic design services. From logos to marketing materials, we create stunning visuals that capture your brand’s essence.',
     image: 'img/graphicsdesignservice.jpeg',
-    link: '#'
+    link: '/graphics-design'
   },
   {
     title: 'Social Media Marketing',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.',
+    description: 'Boost your online presence with our expert social media marketing services. We develop and execute strategies that increase engagement, drive traffic, and grow your brand’s audience.',
     image: 'img/socialmediaservice.jpg',
-    link: '#'
+    link: '/social-media-marketing'
   },
   {
     title: 'HR Consulting',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.',
+    description: 'Streamline your human resources operations with our HR consulting services. We provide strategic guidance on recruitment, employee management, and organizational development.',
     image: 'img/service-5.jpg',
-    link: '#'
+    link: '/hr-consulting'
   },
   {
     title: 'Marketing Consulting',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.',
+    description: 'Unlock your business’s potential with our marketing consulting services. We offer insights and strategies to enhance your marketing efforts, optimize campaigns, and achieve your business goals.',
     image: 'img/service-6.jpg',
-    link: '#'
+    link: '/marketing-consulting'
   }
 ];
 
@@ -164,8 +164,8 @@ const Services = () => {
       <div className="container pb-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '800px' }}>
           <h4 className="text-primary">Our Services</h4>
-          <h1 className="display-5 mb-4">We Services provided best offer</h1>
-          <p className="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.</p>
+          <h1 className="display-5 mb-4">Exceptional Services to Meet Your Needs</h1>
+          <p className="mb-0">At [Your Company], we offer a wide range of services designed to help you achieve your business goals. Our team of experts is dedicated to providing high-quality solutions tailored to your unique needs.</p>
         </div>
         <div className="row g-4">
           {serviceData.map((service, index) => (

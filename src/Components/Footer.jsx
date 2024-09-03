@@ -13,8 +13,8 @@ const Footer = () => {
                   <h4 className="text-white"><i className="fas fa-search-dollar me-3"></i>Swastik</h4>
                   {/* <!-- <img src="img/logo.png" alt="Logo"> --> */}
                 </a>
-                <p className="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
-                <div className="d-flex">
+                <p className="mb-4">Our expert team is dedicated to boosting your brands visibility across online platforms. From stunning web designs to impactful digital marketing, we provide tailored solutions to elevate your online presence. Partner with us to achieve your business goals and captivate your audience...</p>
+                {/* <div className="d-flex">
                   <a href="#" className="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
                     <i className="fas fa-apple-alt text-white"></i>
                     <div className="ms-3">
@@ -29,7 +29,7 @@ const Footer = () => {
                       <h6 className="text-white">Google Play</h6>
                     </div>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-2">

@@ -192,49 +192,48 @@
 
 // export default Blog;
 
-
 const Blog = () => {
   // Define the blog data object inside the component
   const blogData = [
     {
       id: 1,
       imgSrc: "img/service-1.jpg",
-      category: "Dividend Stocks",
-      title: "Options Trading Business?",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam suscipit error corporis accusamus labore....",
+      category: "Web Development",
+      title: "Custom Web Development for Your Business",
+      description: "We create custom websites tailored to your business needs, ensuring a seamless user experience and a strong online presence. Learn more about how our web development services can help you grow.",
       authorImg: "img/testimonial-1.jpg",
-      authorName: "Admin",
-      date: "October 9, 2025",
+      authorName: "John Doe",
+      date: "September 15, 2024",
     },
     {
       id: 2,
       imgSrc: "img/service-2.jpg",
-      category: "Non-Dividend Stocks",
-      title: "Options Trading Business?",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam suscipit error corporis accusamus labore....",
+      category: "App Development",
+      title: "Mobile App Development Solutions",
+      description: "Our mobile app development services provide innovative and scalable solutions to meet your business goals. Discover how we can help you reach your audience through cutting-edge mobile applications.",
       authorImg: "img/testimonial-2.jpg",
-      authorName: "Admin",
-      date: "October 9, 2025",
+      authorName: "Jane Smith",
+      date: "August 28, 2024",
     },
     {
       id: 3,
       imgSrc: "img/service-3.jpg",
-      category: "Dividend Stocks",
-      title: "Options Trading Business?",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam suscipit error corporis accusamus labore....",
+      category: "E-commerce Solutions",
+      title: "Building Successful E-commerce Platforms",
+      description: "From small businesses to large enterprises, our e-commerce development services offer customized solutions that drive sales and customer engagement. Learn how we can elevate your online store.",
       authorImg: "img/testimonial-3.jpg",
-      authorName: "Admin",
-      date: "October 9, 2025",
+      authorName: "Alex Johnson",
+      date: "July 19, 2024",
     },
     {
       id: 4,
       imgSrc: "img/service-4.jpg",
-      category: "Non-Dividend Stocks",
-      title: "Options Trading Business?",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam suscipit error corporis accusamus labore....",
+      category: "SEO Services",
+      title: "Improving Your Online Visibility with SEO",
+      description: "Our SEO services are designed to boost your website’s rankings on search engines, driving more traffic and conversions. Find out how our strategies can help your business thrive online.",
       authorImg: "img/testimonial-1.jpg",
-      authorName: "Admin",
-      date: "October 9, 2025",
+      authorName: "Emily Davis",
+      date: "June 10, 2024",
     },
   ];
 
@@ -260,8 +259,8 @@ const Blog = () => {
       <div className="container pb-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '800px' }}>
           <h4 className="text-primary">Our Blog & News</h4>
-          <h1 className="display-5 mb-4">Articles For Pro Traders</h1>
-          <p className="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.</p>
+          <h1 className="display-5 mb-4">Insights Into Our Services</h1>
+          <p className="mb-0">Stay updated with the latest insights, tips, and trends in web development, mobile app development, e-commerce, and more. Discover how our services can benefit your business.</p>
         </div>
         <div className="row g-4">
           {blogData.map((blog, index) => (

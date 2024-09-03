@@ -18,24 +18,27 @@ function App() {
   return (
     <>
       <Router>
-        <Routes>
-          <Route element={<HomeLayoute />} >
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/services" element={<ServicesPage />} />
-            <Route path="/blogs" element={<BlogPage />} />
-            <Route path="/contact" element={<ContactUsPage />} />
-            <Route path="/team" element={<OurTeamPage />} />
-            <Route path="/clients" element={<ClientsPage />} />
-          </Route>
+        <div className="scrollable-element" style={{ height: '500px' }}>
+          <Routes>
 
-          <Route element={<Dashboardlayout />}>
-            {/* Default route for /dashboard */}
-            <Route path='/admin' />
-            <Route path='table' element={<Tables></Tables>}></Route>
-          </Route>
+            <Route element={<HomeLayoute />} >
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<AboutUs />} />
+              <Route path="/services" element={<ServicesPage />} />
+              <Route path="/blogs" element={<BlogPage />} />
+              <Route path="/contact" element={<ContactUsPage />} />
+              <Route path="/team" element={<OurTeamPage />} />
+              <Route path="/clients" element={<ClientsPage />} />
+            </Route>
 
-        </Routes>
+            <Route element={<Dashboardlayout />}>
+              {/* Default route for /dashboard */}
+              <Route path='/admin' />
+              <Route path='table' element={<Tables></Tables>}></Route>
+            </Route>
+
+          </Routes>
+        </div>
       </Router>
 
     </>
