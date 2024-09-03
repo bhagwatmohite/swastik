@@ -9,7 +9,7 @@ import AboutUs from './Pages/AboutUs';
 import BlogPage from './Pages/BlogPage';
 import ClientsPage from './Pages/ClientsPage';
 import ContactUsPage from './Pages/ContactUsPage';
-import OurTeamPage from './Pages/OUrTeamPage';
+import OurTeamPage from './Pages/OurTeamPage';
 import ServicesPage from './Pages/ServicesPage';
 
 
