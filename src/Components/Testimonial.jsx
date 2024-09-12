@@ -77,21 +77,21 @@ import './Testimonial.css'; // Import custom styles for the testimonials
 const testimonials = [
   {
     imgSrc: 'img/testimonial-1.jpg',
-    text: 'The team at [Your Company] exceeded our expectations with their web development expertise. Their attention to detail and dedication to our project made all the difference in creating a user-friendly and visually stunning website.',
+    text: 'The team at Swastik Agency exceeded our expectations with their web development expertise. Their attention to detail and dedication to our project made all the difference in creating a user-friendly and visually stunning website.',
     name: 'Alice Johnson',
     profession: 'CEO, Tech Innovators',
     stars: 5
   },
   {
     imgSrc: 'img/testimonial-2.jpg',
-    text: 'We were impressed by the seamless app development process handled by [Your Company]. Their innovative solutions and prompt support have significantly improved our mobile app’s performance and user engagement.',
+    text: 'We were impressed by the seamless app development process handled by Swastik Agency. Their innovative solutions and prompt support have significantly improved our mobile app’s performance and user engagement.',
     name: 'Michael Smith',
     profession: 'Product Manager, AppSolutions',
     stars: 5
   },
   {
     imgSrc: 'img/testimonial-3.jpg',
-    text: 'Our experience with [Your Company] was fantastic. Their web and app development services are top-notch, and their team’s professionalism ensured that our project was completed on time and within budget.',
+    text: 'Our experience with Swastik Agency was fantastic. Their web and app development services are top-notch, and their team’s professionalism ensured that our project was completed on time and within budget.',
     name: 'Jessica Lee',
     profession: 'Marketing Director, eComTech',
     stars: 5

@@ -172,7 +172,7 @@ const Faqs = () => {
             </div>
             <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
               <div className="bg-primary rounded">
-                <img src="img/about-2.png" className="img-fluid w-100" alt="FAQs" />
+                <img src="img/Itservice.jpg" className="img-fluid w-100" alt="FAQs" />
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const serviceData = [
     link: '/mobile-development'
   },
   {
-    title: 'Graphics Design Services',
+    title: 'Graphics Design ',
     description: 'Enhance your brand’s visual identity with our professional graphic design services. From logos to marketing materials, we create stunning visuals that capture your brand’s essence.',
     image: 'img/graphicsdesignservice.jpeg',
     link: '/graphics-design'

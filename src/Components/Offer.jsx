@@ -110,21 +110,21 @@ const Offer = () => {
       id: 'collapseOne',
       title: 'Custom Web Development',
       description: 'We create tailored websites that align with your brand and business goals, ensuring a seamless user experience and optimal performance.',
-      image: 'img/offer-1.jpg',
+      image: 'img/web dev.jpg',
       delay: '0.2s'
     },
     {
       id: 'collapseTwo',
       title: 'Mobile App Development',
       description: 'Our team specializes in building responsive and intuitive mobile apps that engage users and drive business growth across all devices.',
-      image: 'img/offer-2.jpg',
+      image: 'img/AppDev.jpg',
       delay: '0.4s'
     },
     {
       id: 'collapseThree',
       title: 'Secure Payment Integration',
       description: 'We integrate secure payment gateways into your website or app, ensuring that transactions are smooth, reliable, and secure.',
-      image: 'img/offer-3.jpg',
+      image: 'img/Secpay.jpg',
       delay: '0.6s'
     },
     {
