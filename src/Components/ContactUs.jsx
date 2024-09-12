@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 
+import EnquiryForm from "./EnquiryForm"
+
 const ContactUs = () => {
   return (
     <>
@@ -61,7 +63,8 @@ const ContactUs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
+                {/* COntact Form /enquiry  */}
+                {/* <div className="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
                   <h4 className="text-primary">Send Your Message</h4>
                   <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a className="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
                   <form>
@@ -108,7 +111,9 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </form>
-                </div>
+                </div> */}
+                <EnquiryForm></EnquiryForm>
+                {/* Enquiry end */}
               </div>
             </div>
             <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">

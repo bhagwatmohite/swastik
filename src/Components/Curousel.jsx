@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Carousel.css'; // Import custom styles for the carousel
 
 const carouselItems = [
@@ -19,6 +20,8 @@ const carouselItems = [
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const navigate = useNavigate();
+
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? carouselItems.length - 1 : prevIndex - 1
@@ -30,6 +33,10 @@ const Carousel = () => {
       prevIndex === carouselItems.length - 1 ? 0 : prevIndex + 1
     );
   };
+
+  const Enquiry = () => {
+    navigate("/enquiry");
+  }
 
   return (
     <div className="carousel">
@@ -51,7 +58,7 @@ const Carousel = () => {
                   <p className="mb-5 fs-5">{carouselItems[currentIndex].description}</p>
                   <div className="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                     <a className="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i className="fas fa-play-circle me-2"></i> Watch Video</a>
-                    <a className="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                    <a className="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" onClick={Enquiry}>Learn More</a>
                   </div>
                   <div className="d-flex align-items-center justify-content-center justify-content-md-end">
                     <h2 className="text-white me-2">Follow Us:</h2>

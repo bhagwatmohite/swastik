@@ -9,6 +9,7 @@ import AboutUs from './Pages/AboutUs';
 import BlogPage from './Pages/BlogPage';
 import ClientsPage from './Pages/ClientsPage';
 import ContactUsPage from './Pages/ContactUsPage';
+import EnquiryNow from './Pages/EnquiryNow';
 import OurTeamPage from './Pages/OurTeamPage';
 import ServicesPage from './Pages/ServicesPage';
 
@@ -29,6 +30,7 @@ function App() {
               <Route path="/contact" element={<ContactUsPage />} />
               <Route path="/team" element={<OurTeamPage />} />
               <Route path="/clients" element={<ClientsPage />} />
+              <Route path="/enquiry" element={<EnquiryNow />} />
             </Route>
 
             <Route element={<Dashboardlayout />}>

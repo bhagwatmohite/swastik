@@ -4,6 +4,8 @@
 //   return (
 //     <>
 
+import { Link } from "react-router-dom";
+
 //       <div className="container-fluid about py-5">
 //         <div className="container py-5">
 //           <div className="row g-5 align-items-center">
@@ -122,9 +124,9 @@ const About = () => {
                     </div>
                   </div>
                   <div className="col-sm-6">
-                    <a href="#" className="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">
+                    <Link to='/enquiry' className="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">
                       Discover Now
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-sm-6">
                     <div className="d-flex">

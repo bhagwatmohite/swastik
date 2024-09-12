@@ -1,5 +1,6 @@
 import About from "./About"
 import Blog from "./Blog"
+import ContactUs from "./ContactUs"
 import Curousell from "./Curousel"
 import Faqs from "./Faqs"
 import Features from "./Features"
@@ -103,6 +104,7 @@ const Home = () => {
       {/* <!-- Copyright Start --> */}
 
       {/* <!-- Copyright End --> */}
+      <ContactUs></ContactUs>
 
 
       {/* <!-- Back to Top --> */}
