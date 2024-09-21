@@ -133,7 +133,8 @@ const About = () => {
                       <i className="fas fa-phone-alt fa-2x text-primary me-4"></i>
                       <div>
                         <h4>Call Us</h4>
-                        <p className="mb-0 fs-5" style={{ letterSpacing: '1px' }}>+01234567890</p>
+                        <p className="mb-0 fs-5" style={{ letterSpacing: '1px' }}>+91-7057857829</p>
+                        <p className="mb-0 fs-5" style={{ letterSpacing: '1px' }}>+91-9404279347</p>
                       </div>
                     </div>
                   </div>
