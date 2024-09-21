@@ -105,7 +105,7 @@ const Team = () => {
       delay: '0.2s'
     },
     {
-      name: 'Abhjit Lingse',
+      name: 'Abhijit Lingse',
       role: 'Java Full Stack Developer',
       imgSrc: 'img/team-2.jpg',
       socialLinks: {
