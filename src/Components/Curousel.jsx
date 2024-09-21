@@ -52,7 +52,7 @@ const Carousel = () => {
           <div className="container">
             <div className="row gy-0 gx-5">
               <div className="col-xl-7 animated fadeInLeft">
-                <div className="text-sm-center text-md-end">
+                <div className="text-sm-center text-md-end" style={{ height: '' }}>
                   <h4 className="text-primary text-uppercase fw-bold mb-4">{carouselItems[currentIndex].heading}</h4>
                   <h1 className="display-4 text-uppercase text-white mb-4">{carouselItems[currentIndex].subheading}</h1>
                   <p className="mb-5 fs-5">{carouselItems[currentIndex].description}</p>
