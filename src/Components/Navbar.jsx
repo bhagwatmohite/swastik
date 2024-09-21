@@ -1,17 +1,17 @@
 
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <div className="container-fluid position-relative p-0">
         <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-          <a href="" className="navbar-brand p-0">
+          <Link to="/" className="navbar-brand p-0">
             <h1 className="text-primary">
               <i className="fas fa-search-dollar me-3"></i>Swastik
             </h1>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

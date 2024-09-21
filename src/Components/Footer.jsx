@@ -59,7 +59,7 @@ const Footer = () => {
                 <h4 className="text-white mb-4">Contact Info</h4>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-map-marker-alt text-primary me-3"></i>
-                  <p className="text-white mb-0">123, Akurdi Pune</p>
+                  <p className="text-white mb-0"> 123 Aaiji Building ,Gurudwara chawk Akurdi, Pune India</p>
                 </div>
                 <div className="d-flex align-items-center">
                   <i className="fas fa-envelope text-primary me-3"></i>
@@ -67,7 +67,7 @@ const Footer = () => {
                 </div>
                 <div className="d-flex align-items-center">
                   <i className="fa fa-phone-alt text-primary me-3"></i>
-                  <p className="text-white mb-0">(+012) 3456 7890</p>
+                  <p className="text-white mb-0">(+91) 7057857829</p>
                 </div>
                 <div className="d-flex align-items-center mb-4">
                   <i className="fab fa-firefox-browser text-primary me-3"></i>

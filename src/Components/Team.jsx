@@ -93,8 +93,8 @@
 const Team = () => {
   const teamData = [
     {
-      name: 'David James',
-      role: 'Frontend  Developer',
+      name: 'Bhagwat Mohite',
+      role: 'Full Stack Developer',
       imgSrc: 'img/team-1.jpg',
       socialLinks: {
         facebook: 'https://facebook.com/davidjames',
@@ -105,8 +105,8 @@ const Team = () => {
       delay: '0.2s'
     },
     {
-      name: 'Sarah Wilson',
-      role: 'UX/UI Designer',
+      name: 'Abhjit Lingse',
+      role: 'Java Full Stack Developer',
       imgSrc: 'img/team-2.jpg',
       socialLinks: {
         facebook: 'https://facebook.com/sarahwilson',
@@ -117,8 +117,8 @@ const Team = () => {
       delay: '0.4s'
     },
     {
-      name: 'Michael Brown',
-      role: 'Backend Developer',
+      name: 'Ashish Gaikwad',
+      role: 'UI/UX Designer',
       imgSrc: 'img/team-3.jpg',
       socialLinks: {
         facebook: 'https://facebook.com/michaelbrown',
@@ -128,18 +128,19 @@ const Team = () => {
       },
       delay: '0.6s'
     },
-    {
-      name: 'Emily Johnson',
-      role: 'Full Stack Developer',
-      imgSrc: 'img/team-4.jpg',
-      socialLinks: {
-        facebook: 'https://facebook.com/emilyjohnson',
-        twitter: 'https://twitter.com/emilyjohnson',
-        linkedin: 'https://linkedin.com/in/emilyjohnson',
-        instagram: 'https://instagram.com/emilyjohnson'
-      },
-      delay: '0.8s'
-    },
+    // {
+    //   name: 'Emily Johnson',
+    //   role: 'Full Stack Developer',
+    //   imgSrc: 'img/team-4.jpg',
+    //   socialLinks: {
+    //     facebook: 'https://facebook.com/emilyjohnson',
+    //     twitter: 'https://twitter.com/emilyjohnson',
+    //     linkedin: 'https://linkedin.com/in/emilyjohnson',
+    //     instagram: 'https://instagram.com/emilyjohnson'
+    //   },
+    //   delay: '0.8s'
+    // },
+
     {
       name: ' Ram Kale',
       role: 'Graphics Designer',
@@ -153,7 +154,7 @@ const Team = () => {
       delay: '1.0s'
     },
     {
-      name: 'James Smith',
+      name: 'Shubham Waykar',
       role: 'App Developer',
       imgSrc: 'img/team-1.jpg',
       socialLinks: {

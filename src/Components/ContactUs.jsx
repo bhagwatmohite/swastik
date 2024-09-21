@@ -24,7 +24,8 @@ const ContactUs = () => {
                         </div>
                         <div>
                           <h4>Address</h4>
-                          <p className="mb-0">123 Street New York.USA</p>
+                          <p className="mb-0">
+                            123 Aaiji Building ,Gurudwara chawk Akurdi, Pune India</p>
                         </div>
                       </div>
                     </div>
@@ -35,7 +36,7 @@ const ContactUs = () => {
                         </div>
                         <div>
                           <h4>Mail Us</h4>
-                          <p className="mb-0">info@example.com</p>
+                          <p className="mb-0">swastik.agency@gmail.com</p>
                         </div>
                       </div>
                     </div>
@@ -46,7 +47,8 @@ const ContactUs = () => {
                         </div>
                         <div>
                           <h4>Telephone</h4>
-                          <p className="mb-0">(+012) 3456 7890</p>
+                          <p className="mb-0">(+91) 7057857829-Bhagwat Mohite</p>
+                          <p className="mb-0">(+91) 9404279347-Abhjit Lingse</p>
                         </div>
                       </div>
                     </div>
@@ -56,8 +58,8 @@ const ContactUs = () => {
                           <i className="fab fa-firefox-browser fa-2x"></i>
                         </div>
                         <div>
-                          <h4>Yoursite@ex.com</h4>
-                          <p className="mb-0">(+012) 3456 7890</p>
+                          <h4>swastik.agency@gmail.com</h4>
+                          <p className="mb-0">(+91) 7057857829 </p>
                         </div>
                       </div>
                     </div>
@@ -118,9 +120,11 @@ const ContactUs = () => {
             </div>
             <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
               <div className="rounded h-100">
-                <iframe className="rounded h-100 w-100"
+                {/* <iframe className="rounded h-100 w-100"
                   style={{ height: '400px' }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd"
-                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                <iframe className="rounded h-100 w-100" style={{ height: '400px' }} src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d40908.53578886006!2d73.73038572809403!3d18.651018350016813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgurudwara%20chawk%20akurdi%20pune%20!5e0!3m2!1sen!2sin!4v1726929601501!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
               </div>
             </div>
           </div>
